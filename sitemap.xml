@@ -2,31 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://unniWang/gitstudy/post/first_try/</loc>
-    <lastmod>2021-10-31T15:24:41+08:00</lastmod>
-  </url><url>
     <loc>https://unniWang/gitstudy/</loc>
     <lastmod>2021-10-31T15:24:41+08:00</lastmod>
   </url><url>
     <loc>https://unniWang/gitstudy/post/</loc>
     <lastmod>2021-10-31T15:24:41+08:00</lastmod>
   </url><url>
-    <loc>https://unniWang/gitstudy/post/android/</loc>
-  </url><url>
-    <loc>https://unniWang/gitstudy/post/android%E6%89%8B%E6%9C%BA%E5%BC%80%E5%8F%91/</loc>
-  </url><url>
-    <loc>https://unniWang/gitstudy/post/ps%E5%AE%9E%E7%94%A8%E6%8A%80%E5%B7%A7/</loc>
-  </url><url>
-    <loc>https://unniWang/gitstudy/post/%E4%B8%93%E4%B8%9A%E8%8B%B1%E8%AF%AD/</loc>
-  </url><url>
-    <loc>https://unniWang/gitstudy/post/%E5%B5%8C%E5%85%A5%E5%BC%8F%E7%B3%BB%E7%BB%9F/</loc>
-  </url><url>
-    <loc>https://unniWang/gitstudy/post/%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/</loc>
-  </url><url>
-    <loc>https://unniWang/gitstudy/post/%E9%98%B6%E6%AE%B5%E4%B8%80java%E5%85%A5%E9%97%A8/</loc>
+    <loc>https://unniWang/gitstudy/post/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</loc>
+    <lastmod>2021-10-31T15:24:41+08:00</lastmod>
   </url><url>
     <loc>https://unniWang/gitstudy/categories/</loc>
   </url><url>
+    <loc>https://unniWang/gitstudy/post/%E9%98%B6%E6%AE%B5%E4%B8%80java%E5%85%A5%E9%97%A8/</loc>
+  </url><url>
+    <loc>https://unniWang/gitstudy/post/ps%E5%AE%9E%E7%94%A8%E6%8A%80%E5%B7%A7/</loc>
+  </url><url>
     <loc>https://unniWang/gitstudy/tags/</loc>
+  </url><url>
+    <loc>https://unniWang/gitstudy/post/android/</loc>
+  </url><url>
+    <loc>https://unniWang/gitstudy/post/android%E6%89%8B%E6%9C%BA%E5%BC%80%E5%8F%91/</loc>
   </url>
 </urlset>
