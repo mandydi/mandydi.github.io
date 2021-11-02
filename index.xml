@@ -2,27 +2,170 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>My New Hugo Site</title>
-    <link>http://mandydi/mandydi.github.io/</link>
+    <link>https://unniWang/gitstudy/</link>
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 31 Oct 2021 15:24:41 +0800</lastBuildDate><atom:link href="http://mandydi/mandydi.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 31 Oct 2021 15:24:41 +0800</lastBuildDate><atom:link href="https://unniWang/gitstudy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First_try</title>
-      <link>http://mandydi/mandydi.github.io/post/first_try/</link>
+      <link>https://unniWang/gitstudy/post/first_try/</link>
       <pubDate>Sun, 31 Oct 2021 15:24:41 +0800</pubDate>
       
-      <guid>http://mandydi/mandydi.github.io/post/first_try/</guid>
+      <guid>https://unniWang/gitstudy/post/first_try/</guid>
       <description>博客搭建详情   自主搭建hugo   安装hugo   用hugo生成博客   下载并配置主题   在本地启动个人博客  博客根目录下克隆
- hugo server -t hugo-theme-ztyblog --buildDrafts   实际来写一遍   将个人博客部署到远端服务器 hugo --theme=m10c --baseUrl=&amp;#34;https://unniWang/gitstudy/&amp;#34; --buildDrafts 会生成一个public文件
+ hugo server -t hugo-theme-ztyblog --buildDrafts   实际来写一遍   将个人博客部署到远端服务器（Github） hugo --theme=m10c --baseUrl=&amp;#34;https://unniWang/gitstudy/&amp;#34; --buildDrafts 会生成一个public文件
 进入Public
 git init
 git add .
 git commit -m &amp;quot;&amp;quot;
 git remote &amp;ndash;theme=m10c -baseUrl=&amp;quot;&amp;quot; &amp;ndash;buildDrafts
 git push -u origin master
-  本地仓库部署到博客(Gitee)
-     </description>
+  本地仓库部署到博客(Gitee)     云服务器搭建  购买域名    </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://unniWang/gitstudy/post/android/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unniWang/gitstudy/post/android/</guid>
+      <description>智能手机与安卓开发 5.3界面布局 5.3.3 表格布局 gravity是控件内部的对齐;
+padding/layout_margin的区别是当前控件的内边框与外边框;
+5.3.4 相对布局 各种文本对齐方式最好的记忆方法就是理解器英文的意思;
+5.3.5 网格布局 相比于表格布局，网格布局更像Excel表格单元格之间可以自由组合，界面元素可随意摆放;
+android:layout_column=&amp;quot;1&amp;quot;布局重用减少冗余层次
+5.4菜单 Option Menu\Context Menu
+使用Java必须要实现onCreateOptionsMenu初始化菜单，每次点击都要被调用,函数的返回类型是布尔型
+快捷菜单P124 onCreateContextMenu()函数初始化菜单项
+用registerForContextMenu()函数，将快捷菜单注册到TextView 控件上
+ 一个Activity可以拥有几个快捷菜单？从创建到相应注册的过程
+ </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://unniWang/gitstudy/post/android%E6%89%8B%E6%9C%BA%E5%BC%80%E5%8F%91/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unniWang/gitstudy/post/android%E6%89%8B%E6%9C%BA%E5%BC%80%E5%8F%91/</guid>
+      <description>Android手机开发实验 App03:乘法计算器 效果展示:对话框输入两个数字相乘返回结果 注册第二个Activity
+ResultActivity Style.xml 配置文件是选定对话框的颜色等，删除会导致程序运行错误
+设置文本  &amp;lt;style name=&amp;quot;BaseStyle&amp;quot;&amp;gt;&amp;lt;item name=&amp;quot;android:textSize&amp;quot;&amp;gt;20sp&amp;lt;/item&amp;gt;&amp;lt;item name=&amp;quot;android:layout_width&amp;quot;&amp;gt;match_parent&amp;lt;/item&amp;gt;&amp;lt;item name=&amp;quot;android:layout_height&amp;quot;&amp;gt;wrap_content&amp;lt;/item&amp;gt;//内容自适应文本输入框  &amp;lt;style name=&amp;quot;BaseStyle.EditText&amp;quot;&amp;gt;&amp;lt;item name=&amp;quot;android:background&amp;quot;&amp;gt;#FFF1FF&amp;lt;/item&amp;gt;&amp;lt;item name=&amp;quot;android:inputType&amp;quot;&amp;gt;number&amp;lt;/item&amp;gt;&amp;lt;item name=&amp;quot;android:textColor&amp;quot;&amp;gt;#495892&amp;lt;/item&amp;gt;&amp;lt;/style&amp;gt;文本样式  &amp;lt;style name=&amp;quot;BaseStyle.TextView&amp;quot;&amp;gt;&amp;lt;item name=&amp;quot;android:gravity&amp;quot;&amp;gt;center_horizontal&amp;lt;/item&amp;gt;&amp;lt;item name=&amp;quot;android:textColor&amp;quot;&amp;gt;#495892&amp;lt;/item&amp;gt;&amp;lt;/style&amp;gt;按钮 &amp;lt;style name=&amp;quot;BaseStyle.Button&amp;quot;&amp;gt;&amp;lt;item name=&amp;quot;android:background&amp;quot;&amp;gt;#527BE1&amp;lt;/item&amp;gt;&amp;lt;item name=&amp;quot;android:textColor&amp;quot;&amp;gt;#FFF&amp;lt;/item&amp;gt;&amp;lt;/style&amp;gt;布局文件Activity.xml editText2;textView1;button*1;
+MainActivity 定义四个成员变量
+通过FindViewById获取四个控件
+App04:界面跳转 效果展示:初次进入APP的页面跳转   载入图片至mipmap
+  复制粘贴activity_main.xml依次至tab01\02\03;
+  在tab界面插入imageView设置边界
+  Common Attributes的scaleType设置成centerCrop;
+  修改Text中最后一行代码srcCompact
+(会导致画面无法显示)
+android:src=&amp;#34;@mipmap/pic01&amp;#34;   在mainActvity中隐藏标题栏</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://unniWang/gitstudy/post/ps%E5%AE%9E%E7%94%A8%E6%8A%80%E5%B7%A7/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unniWang/gitstudy/post/ps%E5%AE%9E%E7%94%A8%E6%8A%80%E5%B7%A7/</guid>
+      <description>PS实用技巧   成图处理线稿   载入目标图片(打开文件、拖拽、复制粘贴)
+  复制所选图层(ctrl+j)
+  调整色阶为0.60
+  复制当前图层
+  失去颜色(ctrl+shift+u)
+  复制当前图层
+  反相(ctrl+i)
+  调整当前图层&amp;quot;颜色变淡&amp;quot;
+  最小值1个像素
+git clone https://github.com/zhengzangw/hugo-theme-ztyblog
+    </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://unniWang/gitstudy/post/%E4%B8%93%E4%B8%9A%E8%8B%B1%E8%AF%AD/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unniWang/gitstudy/post/%E4%B8%93%E4%B8%9A%E8%8B%B1%E8%AF%AD/</guid>
+      <description>第7次课程_1012 1、3.1 Programming内容介绍 Readability&amp;amp;Programmer 自学视频 30分钟/48mins 2、3.2~3.4词汇讲解 自学视频 20分钟 3、专业英语文体介绍 自学视频 15mins /34min
+Description客观说明
+Exposition 说明性文体 user&amp;rsquo;s manual/Facts are often listed orderly one by one
+4、3.4 Introduction to Java 精读 自学视频 50mins
+5、作业：Unit3 术语 15mins/39mins
+ HTML(hyperText Markup Language) XHTML(eXtend hyper Markup Language) CSS GUI(Guys of User Interface) VM(virtual machine) naming convention embedded application function specification 说明书 object-oriented performance robustness portability prototype 原型  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://unniWang/gitstudy/post/%E5%B5%8C%E5%85%A5%E5%BC%8F%E7%B3%BB%E7%BB%9F/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unniWang/gitstudy/post/%E5%B5%8C%E5%85%A5%E5%BC%8F%E7%B3%BB%E7%BB%9F/</guid>
+      <description>3.3通用嵌入式处理器芯片 3.3.1 XScale Harvard架构
+ 提升了储存器的带宽  指令存储器接口 数据存储器接口   同时访问指令和数据存储器  3.3.5 x86处理器  缩短开发周期，适应软件升级 便于使用支持X86体系结构的众多操作系统 有丰富的开发工具  威盛电子VIA Eden 英特尔CORE2双核6400和T7400 对于像游戏平台那样的交互式计算机、工业控制和自动化、数字安全监控、医学成像和通信等方面的应用来说都非常适合
+3.3.6 POWER PC内核处理器芯片 IBM CELL 芯片 工业控制芯片工作频率4G以上的尽量不要用，抗干扰能力差
+可定制芯片防止偷窥，一方面可以与外围设备更容易连接
+Cell可同时执行10条指令序列，可达到每秒2000亿次的浮点运算能力,其能力几乎相当于一部超级计算机.
+采用可重构Soc芯片设计 3.4嵌入式处理器芯片 3.4.1 ASIC/FPGA开发流程 建议你选修FPGA电子设计课程
+3.4.3 Actel单片可编程系统芯片 独立控制就用独立芯片控制，然后再传到总控
+3.4.4 QuickMIPS 3.4.5 Xillinx PSoc 消费类电子产品和工业控制应用
+3.4.6 Cypress 所有PSoC器件都可以动态重置，可以自主创建新的系统功能
+3.4.9Altera SoPC 在平台与高级语言的屏蔽下，系统开发容易了
+可编程芯片、用户定制芯片、通用嵌入芯片
+FPGA开发流程 3.5通用嵌入式微控制器 帮助系统厂商加快上市的措施
+ 设计外围设备与接口 嵌入闪存 降低成本和功耗 提供高效率的软件开发工具  Flash MCU MCU一个很重要的发展趋势:OTP ROM MCU向Flash MCU发展
+在汽车电子和系统设备领域有发展前景</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://unniWang/gitstudy/post/%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unniWang/gitstudy/post/%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/</guid>
+      <description>2.ASP.NET网站文件、jQuery、Bootstrap 2.1.htm文件和XHTML5(eXtensible Hyper Text Markup language) .htm是静态页面，不通过IIS解析直接送往浏览器
+熟悉HTML5的常见属性
+&amp;lt;a href=&amp;#34;mailto:kxsg@21cn.com&amp;#34;&amp;gt;我的邮箱&amp;lt;/a&amp;gt; //表示浏览器上显示超链接“我的邮箱”，单击链接后给kxsg@21cn.com发邮件。 2.2 .aspx文件 Web窗体就是.aspx文件,每个窗体中的代码包括两部分
+   另一部分是包含事件处理的C#  2.3.2 CSS样式位置 2.4.1 JavaScript代码位置 2.5 jQuery 直接通过方法调用实现动态效果
+2.6 .xml文件和XML常识 数据量少、结构不相同则采用xml表格更有效率
+2.9 Boostrap 初始网站的框架-&amp;gt;我们设计的样式-&amp;gt;大大节省了资源
+4.ASP.NET标准控件 6.5状态管理 客户端状态/服务器状态
+6.5.1 ViewState 6.5.3 Cookie 在客户端中维护客户的个人信息
+创建和读取会话Cookie
+Cookie的欺骗与攻击
+6.5.4 Session Session对象可以实现在一个会话期间的多页面的数据共享
+Session_Start/Session_End
+6.5.5 Aplication 应用程序的用户之间传递信息
+ 统计网站在线人数
+ 所有用户受用的全局变量操作前需要加锁，不会引发共享的错误
+小结 Application对象是储存于服务器的全局变量
+Session对象用于在服务器端存储的用户信息，在会话结束时清除信息
+新用户访问会激活Session_Start,退出应用会触发Session_End</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://unniWang/gitstudy/post/%E9%98%B6%E6%AE%B5%E4%B8%80java%E5%85%A5%E9%97%A8/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unniWang/gitstudy/post/%E9%98%B6%E6%AE%B5%E4%B8%80java%E5%85%A5%E9%97%A8/</guid>
+      <description>阶段一:java入门 Java SE(编程基础) 环境搭建 安装完成之后此电脑属性-&amp;gt;高级系统变量-&amp;gt;环境变量 中新建系统变量JAVA_HOME与添加 补齐用户Path
+配置完成之后在Terminal输入DOS命令行 java -version
+显示版本内容则配置成功
+JAVA基础语法 为什么这段语句是JAVA,而不是C++不是Python呢？
+数据类型 byte/void/int/float/double/short/long/boolean/char
+数据类型互换
+数据类型对象包装类最常用用于基本数据类型和字符串类型之间的互换;
+基本数据类型转字符串 基本数据类型.toString(基本类型数据值);
+Integer.toString(34);//将34转换为“34”字符串转成基本数据类型 Integer.parseInt(&amp;quot;123&amp;quot;);//必须传入数字格式的整数Long a=Long.parseLong(“123”);进制之间的互换 int x=Integer.parseInt(“3c”,16)；int x=Integer.toOctalString(8);自动装箱拆箱 当数值在BYTE范围内，如果该数值以及存在，则不会开辟新空间
+流程控制 判断/选择/循环
+if(){}/else{}
+continue/break
+for/while/switch
+300米长的绳子，每天减一半，问多少天这个绳子会小于5m?
+public static void main(String[] args) { int meter=5000; int day=0; System.out.println(&amp;#34;hello:&amp;#34;+meter); while(meter&amp;gt;=5) { meter-=(0.5*meter);//meter=meter/2; 	day++; } System.out.println(&amp;#34;Today:&amp;#34;+day); 完数/水仙花数，遍历后依照条件进行筛选
+for(int i=1;i&amp;lt;=1000;i++,factor=0) { for(int j=1;j&amp;lt;i;j++) { if(i%j==0) { factor+=j; } } if(i==factor) { System.out.println(i); } 掌握基本使用,鉴别判定条件</description>
     </item>
     
   </channel>
