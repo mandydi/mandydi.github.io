@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on My New Hugo Site</title>
-    <link>https://github.com/mandydi/post/</link>
+    <link>https://github.com/mandydi/mandydi.github.io/post/</link>
     <description>Recent content in Posts on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 31 Oct 2021 15:24:41 +0800</lastBuildDate><atom:link href="https://github.com/mandydi/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 31 Oct 2021 15:24:41 +0800</lastBuildDate><atom:link href="https://github.com/mandydi/mandydi.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>博客搭建</title>
-      <link>https://github.com/mandydi/post/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</link>
+      <link>https://github.com/mandydi/mandydi.github.io/post/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</link>
       <pubDate>Sun, 31 Oct 2021 15:24:41 +0800</pubDate>
       
-      <guid>https://github.com/mandydi/post/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</guid>
+      <guid>https://github.com/mandydi/mandydi.github.io/post/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</guid>
       <description>博客搭建详情   自主搭建hugo   安装hugo   用hugo生成博客   下载并配置主题   在本地启动个人博客  博客根目录下克隆
  hugo server -t hugo-theme-ztyblog --buildDrafts   实际来写一遍   将个人博客部署到远端服务器（Github） hugo --theme=m10c --baseUrl=&amp;#34;https://unniWang/gitstudy/&amp;#34; --buildDrafts 会生成一个public文件
 进入Public
@@ -21,15 +21,18 @@ git add .
 git commit -m &amp;quot;&amp;quot;
 git remote &amp;ndash;theme=m10c -baseUrl=&amp;quot;&amp;quot; &amp;ndash;buildDrafts
 git push -u origin master
-  本地仓库部署到博客(Gitee)     云服务器搭建  购买域名    </description>
+  本地仓库部署到博客(Gitee)   回顾操作 修改content文件
+在片头加入hugo new site时创建的片头
+在本地启动修改后的博客内容
+hugo server -t m10c --buildDrafts 部署到远程网站</description>
     </item>
     
     <item>
       <title>JAVASE</title>
-      <link>https://github.com/mandydi/post/%E9%98%B6%E6%AE%B5%E4%B8%80java%E5%85%A5%E9%97%A8/</link>
+      <link>https://github.com/mandydi/mandydi.github.io/post/%E9%98%B6%E6%AE%B5%E4%B8%80java%E5%85%A5%E9%97%A8/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://github.com/mandydi/post/%E9%98%B6%E6%AE%B5%E4%B8%80java%E5%85%A5%E9%97%A8/</guid>
+      <guid>https://github.com/mandydi/mandydi.github.io/post/%E9%98%B6%E6%AE%B5%E4%B8%80java%E5%85%A5%E9%97%A8/</guid>
       <description>阶段一:java入门 Java SE(编程基础) 环境搭建 安装完成之后此电脑属性-&amp;gt;高级系统变量-&amp;gt;环境变量 中新建系统变量JAVA_HOME与添加 补齐用户Path
 配置完成之后在Terminal输入DOS命令行 java -version
 显示版本内容则配置成功
@@ -50,10 +53,10 @@ for(int i=1;i&amp;lt;=1000;i++,factor=0) { for(int j=1;j&amp;lt;i;j++) { if(i%j=
     
     <item>
       <title>PS实用技巧</title>
-      <link>https://github.com/mandydi/post/ps%E5%AE%9E%E7%94%A8%E6%8A%80%E5%B7%A7/</link>
+      <link>https://github.com/mandydi/mandydi.github.io/post/ps%E5%AE%9E%E7%94%A8%E6%8A%80%E5%B7%A7/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://github.com/mandydi/post/ps%E5%AE%9E%E7%94%A8%E6%8A%80%E5%B7%A7/</guid>
+      <guid>https://github.com/mandydi/mandydi.github.io/post/ps%E5%AE%9E%E7%94%A8%E6%8A%80%E5%B7%A7/</guid>
       <description>PS实用技巧   成图处理线稿   载入目标图片(打开文件、拖拽、复制粘贴)
   复制所选图层(ctrl+j)
   调整色阶为0.60
@@ -68,10 +71,10 @@ for(int i=1;i&amp;lt;=1000;i++,factor=0) { for(int j=1;j&amp;lt;i;j++) { if(i%j=
     
     <item>
       <title>智能手机与移动PC编程技术</title>
-      <link>https://github.com/mandydi/post/android/</link>
+      <link>https://github.com/mandydi/mandydi.github.io/post/android/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://github.com/mandydi/post/android/</guid>
+      <guid>https://github.com/mandydi/mandydi.github.io/post/android/</guid>
       <description>智能手机与安卓开发 5.3界面布局 5.3.3 表格布局 gravity是控件内部的对齐;
 padding/layout_margin的区别是当前控件的内边框与外边框;
 5.3.4 相对布局 各种文本对齐方式最好的记忆方法就是理解器英文的意思;
@@ -87,10 +90,10 @@ android:layout_column=&amp;quot;1&amp;quot;布局重用减少冗余层次
     
     <item>
       <title>智能手机与移动PC编程技术实验笔记</title>
-      <link>https://github.com/mandydi/post/android%E6%89%8B%E6%9C%BA%E5%BC%80%E5%8F%91/</link>
+      <link>https://github.com/mandydi/mandydi.github.io/post/android%E6%89%8B%E6%9C%BA%E5%BC%80%E5%8F%91/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://github.com/mandydi/post/android%E6%89%8B%E6%9C%BA%E5%BC%80%E5%8F%91/</guid>
+      <guid>https://github.com/mandydi/mandydi.github.io/post/android%E6%89%8B%E6%9C%BA%E5%BC%80%E5%8F%91/</guid>
       <description>Android手机开发实验 App03:乘法计算器 效果展示:对话框输入两个数字相乘返回结果 注册第二个Activity
 ResultActivity Style.xml 配置文件是选定对话框的颜色等，删除会导致程序运行错误
 设置文本  &amp;lt;style name=&amp;quot;BaseStyle&amp;quot;&amp;gt;&amp;lt;item name=&amp;quot;android:textSize&amp;quot;&amp;gt;20sp&amp;lt;/item&amp;gt;&amp;lt;item name=&amp;quot;android:layout_width&amp;quot;&amp;gt;match_parent&amp;lt;/item&amp;gt;&amp;lt;item name=&amp;quot;android:layout_height&amp;quot;&amp;gt;wrap_content&amp;lt;/item&amp;gt;//内容自适应文本输入框  &amp;lt;style name=&amp;quot;BaseStyle.EditText&amp;quot;&amp;gt;&amp;lt;item name=&amp;quot;android:background&amp;quot;&amp;gt;#FFF1FF&amp;lt;/item&amp;gt;&amp;lt;item name=&amp;quot;android:inputType&amp;quot;&amp;gt;number&amp;lt;/item&amp;gt;&amp;lt;item name=&amp;quot;android:textColor&amp;quot;&amp;gt;#495892&amp;lt;/item&amp;gt;&amp;lt;/style&amp;gt;文本样式  &amp;lt;style name=&amp;quot;BaseStyle.TextView&amp;quot;&amp;gt;&amp;lt;item name=&amp;quot;android:gravity&amp;quot;&amp;gt;center_horizontal&amp;lt;/item&amp;gt;&amp;lt;item name=&amp;quot;android:textColor&amp;quot;&amp;gt;#495892&amp;lt;/item&amp;gt;&amp;lt;/style&amp;gt;按钮 &amp;lt;style name=&amp;quot;BaseStyle.Button&amp;quot;&amp;gt;&amp;lt;item name=&amp;quot;android:background&amp;quot;&amp;gt;#527BE1&amp;lt;/item&amp;gt;&amp;lt;item name=&amp;quot;android:textColor&amp;quot;&amp;gt;#FFF&amp;lt;/item&amp;gt;&amp;lt;/style&amp;gt;布局文件Activity.xml editText2;textView1;button*1;
