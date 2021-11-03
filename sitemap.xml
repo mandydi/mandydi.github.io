@@ -2,25 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://github.com/mandydi/mandydi.github.io/</loc>
+    <loc>https:mandydi.github.io/</loc>
     <lastmod>2021-10-31T15:24:41+08:00</lastmod>
   </url><url>
-    <loc>https://github.com/mandydi/mandydi.github.io/post/</loc>
+    <loc>https:mandydi.github.io/post/</loc>
     <lastmod>2021-10-31T15:24:41+08:00</lastmod>
   </url><url>
-    <loc>https://github.com/mandydi/mandydi.github.io/post/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</loc>
+    <loc>https:mandydi.github.io/post/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</loc>
     <lastmod>2021-10-31T15:24:41+08:00</lastmod>
   </url><url>
-    <loc>https://github.com/mandydi/mandydi.github.io/categories/</loc>
+    <loc>https:mandydi.github.io/categories/</loc>
   </url><url>
-    <loc>https://github.com/mandydi/mandydi.github.io/post/%E9%98%B6%E6%AE%B5%E4%B8%80java%E5%85%A5%E9%97%A8/</loc>
+    <loc>https:mandydi.github.io/post/%E9%98%B6%E6%AE%B5%E4%B8%80java%E5%85%A5%E9%97%A8/</loc>
   </url><url>
-    <loc>https://github.com/mandydi/mandydi.github.io/post/ps%E5%AE%9E%E7%94%A8%E6%8A%80%E5%B7%A7/</loc>
+    <loc>https:mandydi.github.io/post/ps%E5%AE%9E%E7%94%A8%E6%8A%80%E5%B7%A7/</loc>
   </url><url>
-    <loc>https://github.com/mandydi/mandydi.github.io/tags/</loc>
+    <loc>https:mandydi.github.io/tags/</loc>
   </url><url>
-    <loc>https://github.com/mandydi/mandydi.github.io/post/android/</loc>
+    <loc>https:mandydi.github.io/post/android/</loc>
   </url><url>
-    <loc>https://github.com/mandydi/mandydi.github.io/post/android%E6%89%8B%E6%9C%BA%E5%BC%80%E5%8F%91/</loc>
+    <loc>https:mandydi.github.io/post/android%E6%89%8B%E6%9C%BA%E5%BC%80%E5%8F%91/</loc>
   </url>
 </urlset>
